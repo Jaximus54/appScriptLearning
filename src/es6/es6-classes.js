@@ -4,7 +4,6 @@ class Person {
     this.name = name;
     this.gender = gender;
   }
-
   printDetails() {
     return `${this.name} is ${this.gender}`;
   }
@@ -18,7 +17,6 @@ class Employee extends Person {
     super(name, gender);
     this.role = role;
   }
-
   printRole() {
     return `${this.name} is ${this.role}`;
   }

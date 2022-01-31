@@ -1,3 +1,4 @@
+
 /* Returns the Gmail Aliases of the authenticated user */
 const getGmailAliases = () => {
   try {
